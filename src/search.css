@@ -1,0 +1,23 @@
+.search-bar {
+  width: 100%;
+  padding: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 40px;
+}
+
+.search-bar input {
+  width: 90%;
+  padding: 1rem;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+}
+
+.btn {
+  padding: 1rem;
+  border: none;
+  background: yellowgreen;
+  font-weight: bold;
+  border-radius: 5px;
+  color: #fff;
+}
