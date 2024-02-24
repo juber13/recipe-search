@@ -4,9 +4,9 @@ import './skeleton.css'
 const Skeleton = () => {
     return (
         <div className="cards flex gap">
-            {Array.from({ length: 13 }).map((item, i) => (
+            {Array.from({ length: 13 }).map((_, i) => (
                 <>
-                    <a className="card" id="card-link" target="_blank" key={i}>
+                    <a className="card" id="card-link" target="_blank" key={i} href='#recipe'>
                         <div className="card__header">
                             <div>
                                 <img className="card__header header__img skeleton" id="logo-img" alt="" />

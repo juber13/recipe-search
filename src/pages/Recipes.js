@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Skeleton from "../components/Skeleton";
 import { CiHeart } from "react-icons/ci";
 import { GoHeartFill } from "react-icons/go";

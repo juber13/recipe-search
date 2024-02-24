@@ -20,7 +20,7 @@ body {
 }
 
 .space {
-  justify-content: space-between;
+  justify-content: space-between !important;
 }
 .food {
   width: 300px;
@@ -56,4 +56,16 @@ a {
 .icon {
   font-size: 1.5rem;
   cursor: pointer;
+}
+
+@media screen and (max-width: 720px) {
+  .food {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .food {
+    width: 100%;
+  }
 }

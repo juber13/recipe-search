@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import React from "react";
+import { useParams } from "react-router-dom";
 import { GetMyCtx } from "../context/MyContext";
 
 import { CiHeart } from "react-icons/ci";
@@ -21,11 +21,11 @@ const RecipeInfo = () => {
             <div className='right'>
                 <h1>{item.recipe.label}</h1>
                 <h2>IngredientLines</h2>
-                <ul>
+                <ol>
                     {item.recipe.ingredientLines.map(ingre => (
                         <li>{ingre}</li>
                     ))}
-                </ul>
+                </ol>
                 <h4>Calories {Math.floor(item.recipe.calories)}</h4>
                 <div className='flex'>
                     <small style={{ color: "gray" }}>{item.recipe.source}</small>

@@ -47,6 +47,8 @@ export const MyContext = ({ children }) => {
 
   useEffect(() => {
     debouncedFetchData();
+    
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [recipeName]);
 
   return (
