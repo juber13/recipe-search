@@ -24,6 +24,7 @@ Proper semantic tags used for accessibility
 
 ## Screenshots
 
+![Alt text](./images/Screenshot%202024-02-24%20211844.png)
 ![Alt text](./images/Screenshot%202024-02-24%20210547.png)
 ![Alt text](./images/Screenshot%202024-02-24%20210643.png)
 ![Alt text](./images/Screenshot%202024-02-24%20210657.png)
