@@ -14,6 +14,7 @@ Challenges Faced
 ## Features
 
 Fully responsive<br>
+Show skelton while data is taking time to load<br>
 filter out the products<br>
 seamless filter function with debounce functionality<br>
 details page with selected recipe<br>
