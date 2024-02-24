@@ -1,10 +1,21 @@
 import React from 'react'
+import { useNavigate } from "react-router-dom";
+
 import './search.css'
-const SearchBar = ({ setRecipeName }) => {
+
+import { GetMyCtx } from './context/MyContext';
+const SearchBar = () => {
+    const state = GetMyCtx();
+    const navigate = useNavigate();
+
+    const handleInput = (e) => {
+        state.setRecipeName(e.target.value || "salad")
+        navigate(`/`);
+    }
+
     return (
         <div className='search-bar'>
-            <input type="text" placeholder='Search-recipe....' onKeyUp={(e) => setRecipeName(e.target.value)} />
-            <button className='btn'>Search</button>
+            <input type="text" placeholder='Search....' onKeyUp={handleInput} />
         </div>
     )
 }

@@ -1,13 +1,14 @@
 .search-bar {
-  width: 100%;
+  width: 97%;
   padding: 1rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin-bottom: 40px;
+  border: 1px solid #ddd;
 }
 
 .search-bar input {
-  width: 90%;
-  padding: 1rem;
+  width: 98%;
+  padding: 0.5rem;
   border: none;
   font-size: 1rem;
   outline: none;
