@@ -42,7 +42,7 @@ const Recipes = () => {
                                         pro => pro.id === item.id
                                     ) ? (
                                         <GoHeartFill
-                                            style={{ fill: "red" }}
+                                            style={{ fill: "#E41B17 " }}
                                             className='icon'
                                             onClick={() => state.removeFavourite(item.id)}
                                         />

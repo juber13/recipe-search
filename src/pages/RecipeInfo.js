@@ -9,11 +9,11 @@ import "./recipe.css";
 const RecipeInfo = () => {
     const { id } = useParams();
     const state = GetMyCtx();
-    
+
     const item = state.data.find(recipe => recipe.id === id);
     console.log(item);
     return (
-        <div className='recipe-detail flex'>
+        <div className='recipe-detail flex space'>
             <div className='left'>
                 <img src={item.recipe.image} alt='recipe-name' />
             </div>

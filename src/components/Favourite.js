@@ -8,7 +8,7 @@ const Favourite = () => {
         <>
             {state.loading && <Skeleton />}
             {state.favourite.length <= 0 && <h2>No Recipe Added! 🥣</h2>}
-            <div className='food-container flex'>
+            <div className='food-container' style={{ display: "flex", gap: "25px", flexWrap: "wrap" }}>
                 {state?.favourite?.map((item, index) => {
                     return (
                         <div className='food' key={index}>
