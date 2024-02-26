@@ -13,7 +13,7 @@ const RecipeInfo = () => {
     const item = state.data.find(recipe => recipe.id === id);
     console.log(item);
     return (
-        <div className='recipe-detail flex space'>
+        <div className='recipe-detail flex_1'>
             <div className='left'>
                 <img src={item.recipe.image} alt='recipe-name' />
             </div>
